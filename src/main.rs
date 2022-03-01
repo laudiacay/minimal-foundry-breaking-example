@@ -1,4 +1,4 @@
-use foundry::forge::ContractRunner;
+use forge::ContractRunner;
 fn main() {
     println!("Hello, world!");
 }
