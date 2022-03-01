@@ -1,0 +1,11 @@
+[package]
+name = "minimal-example"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# freezing this at a commit, they're really working fast... want to limit the amount i have to suffer along with them lmao
+forge = { git = "https://github.com/gakonst/foundry", rev = "ddb33a2bb1eb3e3a887f17ad75b70dc9202e6998"}
+
